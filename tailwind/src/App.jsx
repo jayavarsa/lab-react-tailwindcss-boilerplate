@@ -15,11 +15,11 @@ export default function App() {
         </div>
 
       </nav>
-      <div className="mt-5 mx-auto py-2">
-        <button className="bg-blue-500 hover:bg-blue-200 text-white font-bold py-2 px-4 rounded ml-12 ">Button One</button>
-        <div className="bg-red-300 border-red-400 text-red-700 px-4 py-3 my-5 ">
+      <div className="mt-5 mx-auto py-2 ml-12 mr-10">
+        <button className="bg-blue-500 hover:bg-blue-200 text-white font-bold py-2 px-4 rounded  ">Button One</button>
+        <div className="bg-red-200 border border-red-500 text-red-700 px-4 py-3 my-5 rounded-md">
           <strong className="font-bold">Alert!</strong>
-          <span className="block sm:inline ">This is Awesome!</span>
+          <span className="block sm:inline ml-3">This is Awesome!</span>
         </div>
         <div>
         <div className="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl mt-12">
